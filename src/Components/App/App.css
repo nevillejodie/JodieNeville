@@ -4,6 +4,24 @@
   --font: "Poppins", sans-serif;
 }
 
-.nav {
-  display: inline-block;
+
+nav {
+  text-align: center; 
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: var(--color-pink);
+}
+.li {
+ display: inline-block;
+ font-size: 20px;
+ padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .li {
+    display: inline-block;
+    font-size: 14px;
+   margin-left: -30px
+  }
 }

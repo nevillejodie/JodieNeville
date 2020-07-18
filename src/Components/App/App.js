@@ -15,14 +15,14 @@ export default function App() {
     <Router>
       <div>
         <nav>
-          <ul className="nav">
-            <li>
+          <ul>
+            <li className="li">
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li className="li">
               <Link to="/aboutme">About Me</Link>
             </li>
-            <li>
+            <li className="li">
               <Link to="/contact">Contact</Link>
             </li>
           </ul>

@@ -3,3 +3,7 @@
   --color-pink: #f6efef;
   --font: "Poppins", sans-serif;
 }
+
+.nav {
+  display: inline-block;
+}

@@ -62,9 +62,13 @@ The interactive elements of the website were very impressive. The hover and drop
                     <p>
                     For our four-week final project our team built a ‘one stop shop’ for information and communications relating to the School of Code network of bootcampers, mentors, and employers. We used React, made it a PWA, interfaced with the Meetup API using the OAuth strategy, used web sockets for our chat feature, authenticated logins using firebase, hosted our PostgreSQL database using AWS RDS and AWS Elastic Beanstalk. We used technologies we were familiar with but also pushed ourselves to learn new ones. We worked in an agile way, breaking the build down into distinct phases and iterating through each of them. See the finished result <a href="https://bootcamper-network.netlify.app/">here</a>.   
                     </p>
-                    <img height="250px" alt="screenshot of bootcamp app" src={bootcamp3}></img>
-                    <img height="250px" alt="screenshot of bootcamp app" src={bootcamp}></img>
-                    <img height="250px" alt="screenshot of bootcamp app" src={bootcamp2}></img>
+                    <figure><img height="250px" alt="screenshot of bootcamp app" src={bootcamp3}></img>
+                    <figcaption>Creating a profile on the Bootcamper Network App.</figcaption></figure>
+                    <figure><img height="250px" alt="screenshot of bootcamp app" src={bootcamp}></img>
+                    <figcaption>Opening the menu on the Bootcamper Network App.</figcaption></figure>
+                    <figure><img height="250px" alt="screenshot of bootcamp app" src={bootcamp2}></img>
+                    <figcaption>The Bootcamper Network App landing screen.</figcaption></figure>
+                    
                 </AccordionItemPanel>
             </AccordionItem>
         </Accordion>

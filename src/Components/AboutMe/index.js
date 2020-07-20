@@ -3,7 +3,7 @@ import css from './aboutme.module.css'
 import Avatar from '../../Images/avatar.png'
 
 function About() {
-    return ( <div className={css.wrapper}><h2>Jodie Neville, Software Developer</h2>
+    return ( <div className={css.wrapper}><h2>Jodie Neville, Launching Into Tech</h2>
     <div className={css.flier}><img alt="avatar made for School of Code" src={Avatar}/></div>
     
       <p className={css.p}>I am a Birmingham-based developer trained through the 4-month, full-time intensive School of Code bootcamp. My switch to coding is thanks to the Code First: Girls Intro to Web Development course. Having previously managed student experience projects and initiatives at the University of Birmingham, I am interested in using code to creatively solve problems and build positive user and developer experiences. </p>

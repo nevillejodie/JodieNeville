@@ -3,6 +3,7 @@ import bhub from '../../Images/bhub.png'
 import bootcamp from '../../Images/bootcamper menu.png'
 import bootcamp2 from '../../Images/bootcamper network.png'
 import bootcamp3 from '../../Images/bootcamper profile.png'
+import css from './projects.module.css'
 import {
     Accordion,
     AccordionItem,
@@ -37,7 +38,7 @@ The feedback for our website was as follows: <br></br>
 "This website is gorgeous, I absolutely love the design and it was great that you backed up your design decisions in your presentation by referencing your target audience. I was impressed by how you've gone the extra mile to source fonts and think through your UX.
 The interactive elements of the website were very impressive. The hover and drop-down features meant it already felt dynamic and engaging even in your limited time. It was clear in your presentation that you'd worked well together as a team and made collaborative decisions. Well done!!!!"
                     </p>
-                    <img height="250px" alt="screenshot of bhub website" src={bhub}></img>
+                    <img className={css.img} height="250px" alt="screenshot of bhub website" src={bhub}></img>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
@@ -62,11 +63,11 @@ The interactive elements of the website were very impressive. The hover and drop
                     <p>
                     For our four-week final project our team built a ‘one stop shop’ for information and communications relating to the School of Code network of bootcampers, mentors, and employers. We used React, made it a PWA, interfaced with the Meetup API using the OAuth strategy, used web sockets for our chat feature, authenticated logins using firebase, hosted our PostgreSQL database using AWS RDS and AWS Elastic Beanstalk. We used technologies we were familiar with but also pushed ourselves to learn new ones. We worked in an agile way, breaking the build down into distinct phases and iterating through each of them. See the finished result <a href="https://bootcamper-network.netlify.app/">here</a>.   
                     </p>
-                    <figure><img height="250px" alt="screenshot of bootcamp app" src={bootcamp3}></img>
+                    <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp3}></img>
                     <figcaption>Creating a profile on the Bootcamper Network App.</figcaption></figure>
-                    <figure><img height="250px" alt="screenshot of bootcamp app" src={bootcamp}></img>
+                    <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp}></img>
                     <figcaption>Opening the menu on the Bootcamper Network App.</figcaption></figure>
-                    <figure><img height="250px" alt="screenshot of bootcamp app" src={bootcamp2}></img>
+                    <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp2}></img>
                     <figcaption>The Bootcamper Network App landing screen.</figcaption></figure>
                     
                 </AccordionItemPanel>

@@ -3,7 +3,7 @@ import css from './contact.module.css'
 
 function Contact() {
     return (<div className={css.wrapper}><h2>Get in touch</h2>
-      <p>I would be particularly receptive to hearing about job, speaking, or teaching opportunities in Tech. Get in touch on the following channels: </p>
+      <p>I would be particularly receptive to hearing about job, speaking, or teaching opportunities. Get in touch on the following channels: </p>
       <a href="https://twitter.com/JodieNeville" rel="noopener noreferrer" target="_blank">
       <button className={css.btn}><img height="25px" alt="twitter icon" src="https://i.ibb.co/cJw1VZt/transp-twitter.png"/> @JodieNeville</button>
       </a>

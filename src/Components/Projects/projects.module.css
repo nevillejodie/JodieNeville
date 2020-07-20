@@ -6,3 +6,7 @@
             
         }
       }
+
+      figcaption {
+        color: var(--color-pink);
+      }

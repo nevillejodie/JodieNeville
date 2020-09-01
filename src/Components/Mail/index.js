@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Form, Button} from 'react-bootstrap'
+import Axios from 'axios'
 
 const initialState = {
     name: "",
     email: "",
-    mobileNum: "",
     message: "",
 }
 
@@ -23,6 +23,14 @@ const Mail = () => {
       function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
+
+        const dataToSend = {formState};
+        var config = {
+            headers: {'Access-Control-Allow-Origin': '*'}
+        };
+
+        Axios.post("http://localhost:5000/send", dataToSend, config)
+
       }
 
     return (
@@ -45,7 +53,7 @@ const Mail = () => {
     <Form.Label>Message</Form.Label>
     <Form.Control as="textarea" rows="3" value={formState.message}  onChange={handleStateChange} type="text" name="message"  />
   </Form.Group>
-  <Button variant="primary" type="submit" onSubmit={handleSubmit}>
+  <Button variant="primary" type="submit" onClick={handleSubmit}>
     Submit
   </Button>
 </Form>

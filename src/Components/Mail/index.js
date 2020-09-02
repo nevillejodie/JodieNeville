@@ -1,66 +1,41 @@
 import React, {useState} from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Form, Button} from 'react-bootstrap'
 import Axios from 'axios'
 
-const initialState = {
-    name: "",
-    email: "",
-    message: "",
-}
+function Mail() {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
 
-const Mail = () => {
-    const [formState, setFormState] = useState(initialState);
+  const handleClick = (e) => {
+    e.preventDefault();
 
-    function handleStateChange(e) {
-        e.persist();
-        const value = e.target.value;
-        const name = e.target.name;
-        setFormState({ ...formState, [name]: value });
-        console.log(formState);
-      }
-    
-      function handleSubmit(e) {
-        e.preventDefault();
-        console.log(formState);
+    if(e.target.id === "name") {
+      setName(e.target.value)
+    } else {
+      setEmail(e.target.value)
+    }
+  }
 
-        const dataToSend = {formState};
-        var config = {
-            headers: {'Access-Control-Allow-Origin': '*'}
-        };
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-        Axios.post("http://localhost:5000/send", dataToSend, config)
-
-      }
-
-    return (
-        <div>
-       <Form>
-  <Form.Group>
-    <Form.Label>Email address</Form.Label>
-    <Form.Control placeholder="Enter email" value={formState.email}  onChange={handleStateChange} type="text" name="email" />
-    <Form.Text className="text-muted">
-      We'll never share your email with anyone else.
-    </Form.Text>
-  </Form.Group>
-
-  <Form.Group>
-    <Form.Label>Name</Form.Label>
-    <Form.Control placeholder="Name" value={formState.name}  onChange={handleStateChange} type="text" name="name" />
-  </Form.Group>
+    const dataToSubmit = {
+      name,
+      email
+    }
   
-  <Form.Group>
-    <Form.Label>Message</Form.Label>
-    <Form.Control as="textarea" rows="3" value={formState.message}  onChange={handleStateChange} type="text" name="message"  />
-  </Form.Group>
-  <Button variant="primary" type="submit" onClick={handleSubmit}>
-    Submit
-  </Button>
-</Form>
-        </div>
- 
-        
-    )
+
+Axios.post("http://localhost:5000/api/sendMail", dataToSubmit)
+  }
+  return (
+    <div>
+      <form onSubmit={handleSubmit}>
+        <input id="name" placeholder="name" value={name} onChange={handleClick}/>
+        <input id="email" placeholder="email" value={email} onChange={handleClick}/>
+        <button onClick={handleSubmit}>Send</button>
+      </form>
+    </div>
+  )
+
 }
 
 export default Mail

@@ -16,6 +16,10 @@
         margin: auto;
     }
 
+    h4 {
+      color: var(--color-pink);
+    }
+
     @media only screen and (max-width: 600px) {
         .wrapper {
             max-width: 250px;

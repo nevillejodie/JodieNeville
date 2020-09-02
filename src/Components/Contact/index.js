@@ -1,9 +1,10 @@
 import React from 'react'
 import css from './contact.module.css'
+import Mail from '../Mail'
 
 function Contact() {
     return (<div className={css.wrapper}><h2>Get in touch</h2>
-      <p>I would be particularly receptive to hearing about job, speaking, or teaching opportunities. Get in touch on the following channels: </p>
+      <p>If you would like me to build a website for you get in touch on one of the following channels:</p>
       <a href="https://twitter.com/JodieNeville" rel="noopener noreferrer" target="_blank">
       <button className={css.btn}><img height="25px" alt="twitter icon" src="https://i.ibb.co/cJw1VZt/transp-twitter.png"/> @JodieNeville</button>
       </a>
@@ -13,6 +14,8 @@ function Contact() {
       <a href="https://www.linkedin.com/in/jlneville/" rel="noopener noreferrer" target="_blank">
       <button className={css.btn}><img height="25px" alt="linkedin icon" src="https://i.ibb.co/MMxKZ0T/transp-linked-in.png"/> @jlneville</button>
       </a>
+      <h4>Or alternatively send me a message using this form</h4>
+      <Mail/>
       </div>)
   }
 

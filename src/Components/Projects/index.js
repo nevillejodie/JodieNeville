@@ -21,7 +21,7 @@ export default function Example() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Code First: Girls Website
+                        Code First: Girls 
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -70,6 +70,28 @@ The interactive elements of the website were very impressive. The hover and drop
                     <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp2}></img>
                     <figcaption>The Bootcamper Network App landing screen.</figcaption></figure>
                     
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Shipston Museum
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>I made the website for <a href="http://shipstonmuseum.co.uk/">Shipston Museum</a> a place where visitors could easily find the information they need to visit and contact the museum.</p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Greg Can Help
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                 I made <a href="www.greghelp.co.uk">this website</a> for a local handyman. He wanted a simple front end where he could store his prices and contact details in a clear and accessible way. 
+                    </p>
                 </AccordionItemPanel>
             </AccordionItem>
         </Accordion>

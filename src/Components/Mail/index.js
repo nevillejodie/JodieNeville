@@ -25,6 +25,9 @@ function Mail() {
   
 
 Axios.post("http://localhost:5000/api/sendMail", dataToSubmit)
+
+setName('')
+setEmail('')
   }
   return (
     <div>

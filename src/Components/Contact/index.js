@@ -14,7 +14,7 @@ function Contact() {
       <a href="https://www.linkedin.com/in/jlneville/" rel="noopener noreferrer" target="_blank">
       <button className={css.btn}><img height="25px" alt="linkedin icon" src="https://i.ibb.co/MMxKZ0T/transp-linked-in.png"/> @jlneville</button>
       </a>
-      <h4>Or alternatively send me a message using this form</h4>
+      <h4>Or alternatively send me your details and I'll get back to you:</h4>
       <Mail/>
       </div>)
   }

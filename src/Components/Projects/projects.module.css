@@ -14,3 +14,8 @@
       .quote {
         font-style: italic;
       }
+
+      .link {
+        font-weight: bold;
+        color: antiquewhite;
+      }

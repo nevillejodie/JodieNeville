@@ -74,3 +74,8 @@ h2 {
 		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
 	}
 }
+
+.link {
+	font-weight: bold;
+	color: antiquewhite;	
+}

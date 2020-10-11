@@ -92,7 +92,7 @@ The interactive elements of the website were very impressive. The hover and drop
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Greg Can Help
+                        Greg can Help
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>

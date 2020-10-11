@@ -50,7 +50,7 @@ export default function Example() {
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                    <p>Shipston Museum is based in the village of Shipston on Stour. They wanted a simple website to show visiting hours and their location, some of the photographs that are part of their collection, a podcast episode recorded with the museum curators, and downloadable forms for prospective volunteers and donators to fill in.
+                    <p>Shipston Museum is based in the market town of Shipston on Stour. They wanted a simple website to show visiting hours and their location, some of the photographs that are part of their collection, a podcast episode recorded with the museum curators, and downloadable forms for prospective volunteers and donators to fill in.
                     The website is static, built using HTML, CSS, and JavaScript. I used media queries to make it responsive on both desktop and mobile. Visit the website <a className={css.link} href="http://shipstonmuseum.co.uk/">here</a></p>
                     <figure> <img src={shipland} className={css.img} height="250px" alt="screenshot of shipston website" />
                     <figcaption>The Shipston Museum landing page.</figcaption></figure>

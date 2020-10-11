@@ -36,3 +36,10 @@ nav {
 .normal {
   color: #217c7e;
 }
+
+nav a:hover {
+  background-color: var(--color-green);
+  color: white;
+  display: block;
+  width: 100px;
+}

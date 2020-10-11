@@ -14,3 +14,14 @@ h2 {
 	font-weight: bold;
 	color: antiquewhite;	
 }
+
+.wrapper {
+    max-width: 550px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        max-width: 250px;
+    }
+  }

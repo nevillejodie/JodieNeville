@@ -10,3 +10,7 @@
       figcaption {
         color: var(--color-pink);
       }
+
+      .quote {
+        font-style: italic;
+      }

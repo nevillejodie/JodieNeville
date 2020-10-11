@@ -32,7 +32,7 @@ export default function Example() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                    For our four-week final project on the School of Code bootcamp our team built a ‘one stop shop’ for information and communications relating to the School of Code network of bootcampers, mentors, and employers. Here's some of the tech we used: <ul><li>React</li><li>Made it a Progressive Web App</li><li>Interfaced with the Meetup API using the OAuth strategy</li><li>Used web sockets for our chat feature</li><li>Authenticated logins using Firebase</li><li>Hosted our PostgreSQL database using AWS RDS and AWS Elastic Beanstalk</li></ul> We used technologies we were familiar with but also pushed ourselves to learn new ones. We worked in an agile way, breaking the build down into distinct phases and iterating through each of them. See the finished result <a href="https://bootcamper-network.netlify.app/">here</a>.   
+                    For our four-week final project on the School of Code bootcamp our team built a ‘one stop shop’ for information and communications relating to the School of Code network. Here's some of the tech we used: <ul><li>React</li><li>Made it a Progressive Web App</li><li>Interfaced with the Meetup API using the OAuth strategy</li><li>Used web sockets for our chat feature</li><li>Authenticated logins using Firebase</li><li>Hosted our PostgreSQL database using AWS RDS and AWS Elastic Beanstalk</li></ul> We used technologies we were familiar with but also pushed ourselves to learn new ones. We worked in an agile way, breaking the build down into distinct phases and iterating through each of them. See the finished result <a href="https://bootcamper-network.netlify.app/">here</a>.   
                     </p>
                     <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp3}></img>
                     <figcaption>Creating a profile on the Bootcamper Network App.</figcaption></figure>
@@ -51,11 +51,17 @@ export default function Example() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>Shipston Museum is based in the village of Shipston on Stour. They wanted a simple website to show visiting hours and their location, some of the photographs that are part of their collection, a podcast episode recorded with the museum curators, and downloadable forms for prospective volunteers and donators to fill in.
-                    The website is static, built using mainly HTML, CSS, and JavaScript. I used media queries to make it responsive on both desktop and mobile. Visit the website <a href="http://shipstonmuseum.co.uk/">here</a></p>
-                    <img src={shipland} className={css.img} height="250px" alt="screenshot of shipston website" />
-                    <img src={shipgall} className={css.img} height="250px" alt="screenshot of shipston website" />
-                    <img src={shipform} className={css.img} height="250px" alt="screenshot of shipston website" /><br></br>
-                    <img src={shipmob} className={css.img} height="250px" alt="screenshot of shipston website" />
+                    The website is static, built using HTML, CSS, and JavaScript. I used media queries to make it responsive on both desktop and mobile. Visit the website <a href="http://shipstonmuseum.co.uk/">here</a></p>
+                    <figure> <img src={shipland} className={css.img} height="250px" alt="screenshot of shipston website" />
+                    <figcaption>The Shipston Museum landing page.</figcaption></figure>
+                   <figure> <img src={shipgall} className={css.img} height="250px" alt="screenshot of shipston website" />
+                   <figcaption>The gallery.</figcaption></figure>
+                   <figure><img src={shipform} className={css.img} height="250px" alt="screenshot of shipston website" />
+                   <figcaption>Get Involved with downloadable forms.</figcaption></figure>
+                    <figure><img src={shipmob} className={css.img} height="250px" alt="screenshot of shipston website" /><figcaption>
+                        Listen to the podcast on mobile.
+                    </figcaption></figure>
+                    
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
@@ -74,11 +80,27 @@ export default function Example() {
 
 Our group won the competition for the website we created. The website can be viewed <a href="https://nevillejodie.github.io/group_project/home.html">here</a>.   
 
-The feedback for our website was as follows: <br></br>
-"This website is gorgeous, I absolutely love the design and it was great that you backed up your design decisions in your presentation by referencing your target audience. I was impressed by how you've gone the extra mile to source fonts and think through your UX.
-The interactive elements of the website were very impressive. The hover and drop-down features meant it already felt dynamic and engaging even in your limited time. It was clear in your presentation that you'd worked well together as a team and made collaborative decisions. Well done!!!!"
+The feedback we received is as follows: 
+<p>"This website is gorgeous, I absolutely love the design and it was great that you backed up your design decisions in your presentation by referencing your target audience. I was impressed by how you've gone the extra mile to source fonts and think through your UX.
+The interactive elements of the website were very impressive. The hover and drop-down features meant it already felt dynamic and engaging even in your limited time. It was clear in your presentation that you'd worked well together as a team and made collaborative decisions. Well done!!!!"</p>
+
                     </p>
-                    <img className={css.img} height="250px" alt="screenshot of bhub website" src={bhub}></img>
+                    <figure><img className={css.img} height="250px" alt="screenshot of bhub website" src={bhub}></img></figure>
+                    
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Greg Can Help
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p> Greg the handyman wanted a simple website where he could store his prices and contact details. This was also built statically using HTML, CSS, and JavaScript. This is what Greg had to say:
+                    <p className={css.quote}>"Jodie was really great at listening to what I wanted and created it for me at a low cost. It is so much easier being able to direct customers to a price list on a website than having to remember or type it out on an email. Thank you "</p>
+                    </p>
+                    <figure><img src={greghelp} className={css.img} height="250px" alt="screenshot of handyman website" /></figure>
+                    
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
@@ -93,19 +115,7 @@ The interactive elements of the website were very impressive. The hover and drop
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
-            <AccordionItem>
-                <AccordionItemHeading>
-                    <AccordionItemButton>
-                        Greg Can Help
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                    <p>
-                 I made <a href="https://greghelp.co.uk/index.html" rel="noopener noreferrer" target="_blank">this website</a> for a local handyman. He wanted a simple front end where he could store his prices and contact details in a clear and accessible way. 
-                    </p>
-                    <img src={greghelp} className={css.img} height="250px" alt="screenshot of handyman website" />
-                </AccordionItemPanel>
-            </AccordionItem>
+            
         </Accordion>
     );
 }

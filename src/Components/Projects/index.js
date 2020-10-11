@@ -72,7 +72,7 @@ export default function Example() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                    This course combined education with a network of motivated individuals. It provided an opportunity to put the skills learnt into practice by working with a group to create a website. The skills included:
+                    This course provided an opportunity to put the skills learnt into practice by working in a group to create a website. The skills included:
 <ul><li>Use of HTML, CSS, and Javascript.</li>
 <li>Git, Github and Version Control.</li> 
 <li>Bootstrap and JQuery.</li>

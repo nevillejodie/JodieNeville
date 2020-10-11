@@ -7,7 +7,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  NavLink
 } from "react-router-dom";
 
 export default function App() {
@@ -17,13 +18,13 @@ export default function App() {
         <nav>
           <ul>
             <li className="li">
-              <Link to="/">Home</Link>
+              <NavLink exact={true} to="/" className="normal" activeClassName="selected">Home</NavLink>
             </li>
             <li className="li">
-              <Link to="/aboutme">About Me</Link>
+              <NavLink to="/aboutme" className="normal" activeClassName="selected">About Me</NavLink>
             </li>
             <li className="li">
-              <Link to="/contact">Contact</Link>
+              <NavLink to="/contact" className="normal" activeClassName="selected" >Contact</NavLink>
             </li>
           </ul>
         </nav>

@@ -3,6 +3,12 @@ import bhub from '../../Images/bhub.png'
 import bootcamp from '../../Images/bootcamper menu.png'
 import bootcamp2 from '../../Images/bootcamper network.png'
 import bootcamp3 from '../../Images/bootcamper profile.png'
+import shipland from '../../Images/ShipstonLanding.png'
+import shipgall from '../../Images/ShipstonGallery.png'
+import shipmob from '../../Images/ShipstonMobile.png'
+import shipform from '../../Images/ShipstonForms.png'
+import greghelp from '../../Images/greghelp.png'
+
 import css from './projects.module.css'
 import {
     Accordion,
@@ -18,6 +24,40 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 export default function Example() {
     return (
         <Accordion allowZeroExpanded="true">
+         <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Bootcamper Network App
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                    For our four-week final project on the School of Code bootcamp our team built a ‘one stop shop’ for information and communications relating to the School of Code network of bootcampers, mentors, and employers. Here's some of the tech we used: <ul><li>React</li><li>Made it a Progressive Web App</li><li>Interfaced with the Meetup API using the OAuth strategy</li><li>Used web sockets for our chat feature</li><li>Authenticated logins using Firebase</li><li>Hosted our PostgreSQL database using AWS RDS and AWS Elastic Beanstalk</li></ul> We used technologies we were familiar with but also pushed ourselves to learn new ones. We worked in an agile way, breaking the build down into distinct phases and iterating through each of them. See the finished result <a href="https://bootcamper-network.netlify.app/">here</a>.   
+                    </p>
+                    <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp3}></img>
+                    <figcaption>Creating a profile on the Bootcamper Network App.</figcaption></figure>
+                    <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp}></img>
+                    <figcaption>Opening the menu on the Bootcamper Network App.</figcaption></figure>
+                    <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp2}></img>
+                    <figcaption>The Bootcamper Network App landing screen.</figcaption></figure>
+                    
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Shipston Museum
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>Shipston Museum is based in the village of Shipston on Stour. They wanted a simple website to show visiting hours and their location, some of the photographs that are part of their collection, a podcast episode recorded with the museum curators, and downloadable forms for prospective volunteers and donators to fill in.
+                    The website is static, built using mainly HTML, CSS, and JavaScript. I used media queries to make it responsive on both desktop and mobile. Visit the website <a href="http://shipstonmuseum.co.uk/">here</a></p>
+                    <img src={shipland} className={css.img} height="250px" alt="screenshot of shipston website" />
+                    <img src={shipgall} className={css.img} height="250px" alt="screenshot of shipston website" />
+                    <img src={shipform} className={css.img} height="250px" alt="screenshot of shipston website" /><br></br>
+                    <img src={shipmob} className={css.img} height="250px" alt="screenshot of shipston website" />
+                </AccordionItemPanel>
+            </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
@@ -56,42 +96,14 @@ The interactive elements of the website were very impressive. The hover and drop
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Bootcamper Network App
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                    <p>
-                    For our four-week final project our team built a ‘one stop shop’ for information and communications relating to the School of Code network of bootcampers, mentors, and employers. We used React, made it a PWA, interfaced with the Meetup API using the OAuth strategy, used web sockets for our chat feature, authenticated logins using firebase, hosted our PostgreSQL database using AWS RDS and AWS Elastic Beanstalk. We used technologies we were familiar with but also pushed ourselves to learn new ones. We worked in an agile way, breaking the build down into distinct phases and iterating through each of them. See the finished result <a href="https://bootcamper-network.netlify.app/">here</a>.   
-                    </p>
-                    <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp3}></img>
-                    <figcaption>Creating a profile on the Bootcamper Network App.</figcaption></figure>
-                    <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp}></img>
-                    <figcaption>Opening the menu on the Bootcamper Network App.</figcaption></figure>
-                    <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp2}></img>
-                    <figcaption>The Bootcamper Network App landing screen.</figcaption></figure>
-                    
-                </AccordionItemPanel>
-            </AccordionItem>
-            <AccordionItem>
-                <AccordionItemHeading>
-                    <AccordionItemButton>
-                        Shipston Museum
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                    <p>I made the website for <a href="http://shipstonmuseum.co.uk/">Shipston Museum</a> a place where visitors could easily find the information they need to visit and contact the museum.</p>
-                </AccordionItemPanel>
-            </AccordionItem>
-            <AccordionItem>
-                <AccordionItemHeading>
-                    <AccordionItemButton>
                         Greg Can Help
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                 I made <a href="www.greghelp.co.uk">this website</a> for a local handyman. He wanted a simple front end where he could store his prices and contact details in a clear and accessible way. 
+                 I made <a href="https://greghelp.co.uk/index.html" rel="noopener noreferrer" target="_blank">this website</a> for a local handyman. He wanted a simple front end where he could store his prices and contact details in a clear and accessible way. 
                     </p>
+                    <img src={greghelp} className={css.img} height="250px" alt="screenshot of handyman website" />
                 </AccordionItemPanel>
             </AccordionItem>
         </Accordion>

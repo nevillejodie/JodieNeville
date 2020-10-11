@@ -25,3 +25,7 @@
             max-width: 250px;
         }
       }
+
+      .email {
+        font-weight: bold;
+      }

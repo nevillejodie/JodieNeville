@@ -9,10 +9,8 @@ export default function App() {
   return (
     <Fade>
       <Home/>
-        
       <About/>
       <Contact/>
-      
     </Fade>
   );
 }

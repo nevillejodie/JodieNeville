@@ -4,19 +4,13 @@ html {
   --font: "Poppins", sans-serif;
 }
 
-html.dark{
-  background-color: var(blue);
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-        /* here's where we change the variable values for dark mode */
-    --primaryTextColor: white;
-    --primaryBackgroundColor:blue;
-        --headingTextColor: #14ad8c;
-        --secondaryBackgroundColor: #130d21;  
+  html.dark {
+    --color-pink: black;
+    --color-green:#5A809E;
+    --headingTextColor: #14ad8c;
+    --secondaryBackgroundColor: #130d21;  
   }
-}
+
 
 nav {
   text-align: center; 

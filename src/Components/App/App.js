@@ -9,7 +9,7 @@ import DarkToggle from '../DarkMode'
 export default function App() {
   return (
     <Fade>
-      <DarkToggle/>
+    <div class="darkMode"><DarkToggle/></div>
       <Home/>
       <About/>
       <Contact/>

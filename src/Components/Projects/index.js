@@ -8,7 +8,6 @@ import shipgall from '../../Images/ShipstonGallery.png'
 import shipmob from '../../Images/ShipstonMobile.png'
 import shipform from '../../Images/ShipstonForms.png'
 import greghelp from '../../Images/greghelp.png'
-
 import css from './projects.module.css'
 import {
     Accordion,
@@ -17,12 +16,13 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
 } from 'react-accessible-accordion';
- 
-// Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css';
+
  
-export default function Example() {
+export default function Projects() {
+    
     return (
+        <>
         <Accordion allowZeroExpanded="true">
          <AccordionItem>
                 <AccordionItemHeading>
@@ -116,5 +116,6 @@ The interactive elements of the website were very impressive. The hover and drop
             </AccordionItem>
             
         </Accordion>
+        </>
     );
 }

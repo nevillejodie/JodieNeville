@@ -1,8 +1,21 @@
+
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
 .wrapper {
-    width: 600px;
+    width: 70%;
     margin: auto;
 }
 
+.intro{
+    font-size: 50px;
+}
+
+.wrapper h3 {
+    color: white;
+}
 
 @media only screen and (max-width: 600px) {
     .wrapper {

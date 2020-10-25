@@ -1,4 +1,9 @@
 
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
     @media only screen and (max-width: 600px) {
         .img {
             max-width: 225px;
@@ -18,4 +23,8 @@
       .link {
         font-weight: bold;
         color: antiquewhite;
+      }
+
+      #hi {
+        list-style: none;
       }

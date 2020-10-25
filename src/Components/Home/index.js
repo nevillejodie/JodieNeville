@@ -1,15 +1,17 @@
 import React from 'react'
 import css from './home.module.css'
 import Projects from '../Projects'
-
+import Projects2 from '../Projects2'
+import Fade from 'react-reveal'
 
 function Home() {
-    return (<div className={css.wrapper}><h2 className={css.intro}>Hi, I'm Jodie.</h2>
+    return (<Fade><div className={css.wrapper}><h2 className={css.intro}>Hi, I'm Jodie.</h2>
     <p>
     I'm a Birmingham based woman in Tech. Click below to see some of the websites and applications I've built:</p>
     <h2>Projects</h2>
-    <Projects/>
-   </div>)
+    <Projects2/>
+   
+   </div></Fade>)
   }
 
   export default Home

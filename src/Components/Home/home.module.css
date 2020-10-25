@@ -1,7 +1,9 @@
 
   
-  img {
-    border-radius: 5px 5px 0 0;
+  .prof {
+    border-radius: 50px;
+    margin-left: 40px;
+    margin-top: -20px;
   }
   
 .wrapper {

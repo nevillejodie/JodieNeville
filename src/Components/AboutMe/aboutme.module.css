@@ -2,6 +2,10 @@ body {
     background-color: var(--color-green);
 }
 
+body.dark {
+    background-color: var(--primaryBackgroundColor);
+}
+
 p {
     color: var(--color-pink);
 }
@@ -22,7 +26,7 @@ h2 {
 
 @media only screen and (max-width: 600px) {
     .wrapper {
-        max-width: 250px;
+        max-width: 350px;
     }
     #prof2 {
         width: 370px;
@@ -35,7 +39,7 @@ h2 {
     margin-left: 40px;
   }
 
-  .prof1 {
+  #prof2 {
     border-radius: 50px;
-    margin-left: 40px;
+    margin-left: 0px;
   }

@@ -28,7 +28,7 @@ const DarkToggle = () => {
         className="DarkToggle"
         checked={isDark}
         onChange={event => setIsDark(event.target.checked)}
-        icons={{ checked: "🌙", unchecked: "🔆" }}
+        icons={{ checked: "🔆" , unchecked: "🌙" }}
         aria-label="Dark mode"
       />
     );

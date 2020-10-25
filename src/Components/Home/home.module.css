@@ -4,11 +4,6 @@
     margin-top: -20px;
   }
   
-.wrapper {
-    width: 70%;
-    margin: auto;
-}
-
 .intro{
     font-size: 50px;
 }
@@ -17,10 +12,13 @@
     color: white;
 }
 
+.wrapper {
+    max-width: 70%;
+    margin: auto;
+}
 @media only screen and (max-width: 600px) {
-    .wrapper {
-        max-width: 350px;
-
-    }
+  .wrapper {
+      max-width: 350px;
   }
+}
 

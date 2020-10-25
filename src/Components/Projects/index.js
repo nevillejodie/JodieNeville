@@ -20,9 +20,9 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 
  
 export default function Projects() {
-    
     return (
         <>
+        <div className={css.wrapper}>
         <Accordion allowZeroExpanded="true">
          <AccordionItem>
                 <AccordionItemHeading>
@@ -116,6 +116,7 @@ The interactive elements of the website were very impressive. The hover and drop
             </AccordionItem>
             
         </Accordion>
+        </div>
         </>
     );
 }

@@ -1,17 +1,6 @@
-
-
 img {
   border-radius: 5px 5px 0 0;
 }
-
-    @media only screen and (max-width: 600px) {
-        .img {
-            max-width: 225px;
-            max-height: 225px;
-            margin-left: -50px;
-        }
-      }
-
       figcaption {
         color: var(--color-pink);
       }
@@ -25,6 +14,8 @@ img {
         color: antiquewhite;
       }
 
-      #hi {
-        list-style: none;
-      }
+@media only screen and (max-width: 600px) {
+.wrapper {
+max-width: 350px;
+}
+}

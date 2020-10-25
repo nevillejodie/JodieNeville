@@ -12,11 +12,6 @@
         font-weight: 900;
       }
 
-      .wrapper {
-        width: 70%;
-        margin: auto;
-    }
-
     h4 {
       color: var(--color-pink);
     }
@@ -26,9 +21,13 @@
       color: white;
     }
 
-    @media only screen and (max-width: 600px) {
-      .wrapper {
-          max-width: 350px;
-      }
+    .wrapper {
+      max-width: 70%;
+      margin: auto;
+  }
+  @media only screen and (max-width: 600px) {
+    .wrapper {
+        max-width: 350px;
     }
+  }
   

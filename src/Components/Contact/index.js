@@ -3,7 +3,6 @@ import css from './contact.module.css'
 
 function Contact() {
     return (<div className={css.wrapper}><h2>Get in Touch</h2>
-    <div></div>
       <p>If you'd like to chat about anything you've come across on this portfolio please reach out on one of the following channels:</p>
       <a href="https://twitter.com/JodieNeville" rel="noopener noreferrer" target="_blank">
       <button className={css.btn}><img height="25px" width="25px" class="icon" alt="twitter icon" src="https://i.ibb.co/cJw1VZt/transp-twitter.png"/> @JodieNeville</button>

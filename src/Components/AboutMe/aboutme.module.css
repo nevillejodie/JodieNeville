@@ -2,6 +2,20 @@ body {
     background-color: var(--color-green);
 }
 
+body.dark {
+    background-color: var(--primaryBackgroundColor);
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+          /* here's where we change the variable values for dark mode */
+      --primaryTextColor: white;
+      --primaryBackgroundColor: black;
+          --headingTextColor: #14ad8c;
+          --secondaryBackgroundColor: #130d21;  
+    }
+  }
+
 p {
     color: var(--color-pink);
 }
@@ -22,7 +36,7 @@ h2 {
 
 @media only screen and (max-width: 600px) {
     .wrapper {
-        max-width: 250px;
+        max-width: 350px;
     }
     #prof2 {
         width: 370px;
@@ -35,7 +49,7 @@ h2 {
     margin-left: 40px;
   }
 
-  .prof1 {
+  #prof2 {
     border-radius: 50px;
-    margin-left: 40px;
+    margin-left: 0px;
   }

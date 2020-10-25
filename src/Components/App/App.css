@@ -1,10 +1,15 @@
-
-
-:root {
+html {
   --color-green: #F57D7C;
   --color-pink: white;
   --font: "Poppins", sans-serif;
 }
+
+  html.dark {
+    --color-pink: black;
+    --color-green:#5A809E;
+    --headingTextColor: #14ad8c;
+    --secondaryBackgroundColor: #130d21;  
+  }
 
 
 nav {

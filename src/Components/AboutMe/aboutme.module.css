@@ -24,9 +24,18 @@ h2 {
     .wrapper {
         max-width: 250px;
     }
+    #prof2 {
+        width: 370px;
+        margin-left: 0px;
+    }
   }
 
   .prof {
+    border-radius: 50px;
+    margin-left: 40px;
+  }
+
+  .prof1 {
     border-radius: 50px;
     margin-left: 40px;
   }

@@ -28,6 +28,7 @@ nav {
 @media only screen and (max-width: 600px) {
   body {
     max-width: 350px;
+    margin: 15px;
   }
   .li {
     display: inline-block;

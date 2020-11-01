@@ -15,8 +15,8 @@ function Contact() {
       </a>
       <br></br>
       <br></br>
-      <p>Or alternatively email me <a href="mailto:jlneville92@gmail.com" className={css.email}>jlneville92@gmail.com</a></p>
-      <p>Look forward to meeting you :)</p>
+      <p>Or alternatively email me <a href="mailto:jlneville92@gmail.com" className={css.email}>jlneville92@gmail.com</a> &#128231;</p>
+      <p>Look forward to meeting you &#128522;</p>
       </div>)
   }
 

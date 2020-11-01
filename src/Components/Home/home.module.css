@@ -8,6 +8,11 @@
     font-size: 50px;
 }
 
+.link {
+	font-weight: bold;
+	color: antiquewhite;	
+}
+
 .wrapper h3 {
     color: white;
 }

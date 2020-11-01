@@ -81,7 +81,7 @@ export default function Projects() {
 Our group won the competition for the website we created. The website can be viewed <a className={css.link} href="https://nevillejodie.github.io/group_project/home.html">here</a>.   
 
 The feedback we received is as follows: 
-<p>"This website is gorgeous, I absolutely love the design and it was great that you backed up your design decisions in your presentation by referencing your target audience. I was impressed by how you've gone the extra mile to source fonts and think through your UX.
+<p className={css.quote}>"This website is gorgeous, I absolutely love the design and it was great that you backed up your design decisions in your presentation by referencing your target audience. I was impressed by how you've gone the extra mile to source fonts and think through your UX.
 The interactive elements of the website were very impressive. The hover and drop-down features meant it already felt dynamic and engaging even in your limited time. It was clear in your presentation that you'd worked well together as a team and made collaborative decisions. Well done!!!!"</p>
 
                     </p>

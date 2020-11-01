@@ -21,6 +21,29 @@ p {
     color: var(--color-pink);
 }
 
+ul {
+    color: var(--color-pink);
+    display: inline-block
+}
+
+.tech {
+    display: inline-block;
+
+}
+
+.reactldn {
+    transition: transform .2s;
+}
+
+.reactldn:hover{
+    transform: scale(1.5);
+}
+
+img {
+    border-radius: 50px;
+    margin-left: 40px;
+}
+
 h2 {
     color: var(--color-pink);
 }

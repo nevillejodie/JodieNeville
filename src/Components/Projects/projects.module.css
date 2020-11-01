@@ -7,7 +7,9 @@ img {
 
       .quote {
         font-style: italic;
+        font-size: larger;
       }
+  
 
       .link {
         font-weight: bold;

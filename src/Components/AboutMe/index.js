@@ -1,7 +1,11 @@
 import React from 'react'
 import css from './aboutme.module.css'
 import cyberowl from '../../Images/logo.png'
-
+import javascript from '../../Images/javascript.png'
+import python from '../../Images/python.png'
+import react from '../../Images/react.png'
+import postgres from '../../Images/postgres.svg'
+import reactldn from '../../Images/reactldn.png'
 
 function About() {
     return ( <div className={css.wrapper}><h2>Launching Into Tech</h2>
@@ -11,7 +15,14 @@ function About() {
       <img src={cyberowl} className={css.prof2} height="100px" alt=" cyberowl logo"/>
       <p>I have also come full circle in my involvement with Code First: Girls. I am now a remote instructor on the Introduction to Web Development course. It is so fulfilling to be able to give others the same opportunity that I had. On this course I teach HTML, CSS, JavaScript, project design and management, GitHub and version control. I have received some great feedback on my teaching and I enjoy it a lot.</p>
       <img alt="code first girls" className={css.prof} height="100px" src="https://pbs.twimg.com/profile_images/1301546795986817024/QTOU5xJj.jpg"/>
+      <h2>Skills and Languages</h2>
+      <ul className={css.listOne}><li><a className={css.link} href="https://www.youracclaim.com/badges/cb0f3763-5fec-4abc-a4c0-ce1d8ecdf6d1/linked_in">AWS Certified Cloud Practitioner</a></li><li>JavaScript and React</li><li>Python</li></ul>
+      <ul className={css.listTwo}><li>PostgreSQL</li><li>Web Sockets</li><li>Shell Scripting</li></ul>
+      <ul className={css.listThree}><li>NodeJS</li><li>Regression Testing</li><li>Microsoft Azure</li></ul>
+      <div className={css.tech}><img alt="js" height="60px" src={javascript}/><img alt="react" height="60px" src={react}/><img alt="python" height="60px" src={python}/><img alt="postgres" height="60px" src={postgres}/></div>
+      <h2>Events I've Spoken at</h2>
       <p>I had the opportunity to present our final bootcamp project to React London: Bring Your Own Project meetup. I really enjoyed speaking at this event and look forward to doing so more in the future. If you have a speaking opportunity then don't hesitate to get in touch. </p>
+      <a href="https://twitter.com/helen8297/status/1278724241685389312"><img className={css.reactldn} height="300px" alt="twitter" src={reactldn}/></a> 
       </div>)
   }
 

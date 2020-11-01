@@ -1,14 +1,16 @@
 html {
   --color-green: #F57D7C;
   --color-pink: white;
-  --font: "Poppins", sans-serif;
+  --font: "Poppins", sans-serif, bold;
 }
 
   html.dark {
-    --color-pink: black;
-    --color-green:#5A809E;
+    --color-pink: white;
+    --color-green: #292929;
     --headingTextColor: #14ad8c;
     --secondaryBackgroundColor: #130d21;  
+    --font: "Poppins", sans-serif;
+    font: (--font)
   }
 
 
@@ -30,6 +32,7 @@ nav {
     max-width: 350px;
     margin: 15px;
   }
+
   .li {
     display: inline-block;
     font-size: 14px;

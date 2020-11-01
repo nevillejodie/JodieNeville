@@ -6,6 +6,7 @@ body.dark {
     background-color: var(--primaryBackgroundColor);
 }
 
+
 @media (prefers-color-scheme: dark) {
     html {
           /* here's where we change the variable values for dark mode */
@@ -49,7 +50,7 @@ h2 {
     margin-left: 40px;
   }
 
-  #prof2 {
+  .prof2 {
     border-radius: 50px;
-    margin-left: 0px;
+    margin-left: 40px;
   }

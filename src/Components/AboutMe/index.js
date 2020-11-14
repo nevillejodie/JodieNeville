@@ -21,7 +21,7 @@ function About() {
       <ul className={css.listThree}><li>NodeJS</li><li>Regression Testing</li><li>Microsoft Azure</li></ul>
       </div>
       <div className={css.tech}>
-      <img className={css.techlogo} alt="js" height="60px" src={javascript}/><img className={css.techlogo} alt="react" height="60px" src={react}/><img className={css.techlogo}  alt="python" height="60px" src={python}/><img className={css.techlogo}  alt="postgres" height="60px" src={postgres}/>
+      <img className={css.techlogo} alt="js" height="60px" src={javascript}/><img className={css.techlogo} alt="react" height="60px" src="https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png"/><img className={css.techlogo}  alt="python" height="60px" src={python}/><img className={css.techlogo}  alt="postgres" height="60px" src={postgres}/>
       </div>
       <h2>Events I've Spoken at</h2>
       <p>I had the opportunity to present our final bootcamp project to React London: Bring Your Own Project meetup. I really enjoyed speaking at this event and look forward to doing so more in the future. If you have a speaking opportunity then don't hesitate to get in touch. </p>

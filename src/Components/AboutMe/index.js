@@ -3,7 +3,6 @@ import css from './aboutme.module.css'
 import cyberowl from '../../Images/logo.png'
 import javascript from '../../Images/javascript.png'
 import python from '../../Images/python.png'
-import react from '../../Images/react.png'
 import postgres from '../../Images/postgres.svg'
 import reactldn from '../../Images/reactldn.png'
 

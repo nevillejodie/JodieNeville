@@ -9,10 +9,10 @@ function Contact() {
     return (<div className={css.wrapper}><h2>Get in Touch</h2>
       <p>If you'd like to chat about anything you've come across on this portfolio please reach out on one of the following channels:</p>
     <div className={css.logos}>
-     <a href="mailto:jlneville92@gmail.com"><img className={css.icon} alt="email logo" height='60px' src={email}/></a>
-     <a href="https://github.com/nevillejodie"><img className={css.icon} alt="github logo" height='60px' src={github}/></a>
-     <a href="https://www.linkedin.com/in/jlneville/"><img className={css.icon} alt="linkedin logo" height='60px' src={linkedin}/></a>
-     <a href="https://twitter.com/JodieNeville"><img className={css.icon} alt="twitter logo" height='60px' src={twitter}/></a>
+     <a href="mailto:jlneville92@gmail.com" rel="noopener noreferrer" target="_blank"><img className={css.icon} alt="email logo" height='60px' src={email}/></a>
+     <a href="https://github.com/nevillejodie" rel="noopener noreferrer" target="_blank"><img className={css.icon} alt="github logo" height='60px' src={github}/></a>
+     <a href="https://www.linkedin.com/in/jlneville/" rel="noopener noreferrer" target="_blank"><img className={css.icon} alt="linkedin logo" height='60px' src={linkedin}/></a>
+     <a href="https://twitter.com/JodieNeville" rel="noopener noreferrer" target="_blank"><img className={css.icon} alt="twitter logo" height='60px' src={twitter}/></a>
      </div>
       <p>Look forward to meeting you &#128522;</p>
       </div>)

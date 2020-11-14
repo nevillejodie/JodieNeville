@@ -41,14 +41,6 @@ ul {
   padding: 50px;
 }
 
-.reactldn {
-    transition: transform .2s;
-}
-
-.reactldn:hover{
-    transform: scale(1.5);
-}
-
 img {
     border-radius: 50px;
     margin-left: 40px;

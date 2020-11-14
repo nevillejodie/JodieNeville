@@ -14,10 +14,8 @@ function About() {
       <p>I have also come full circle in my involvement with Code First: Girls. I am now a remote instructor on the Introduction to Web Development course. It is so fulfilling to be able to give others the same opportunity that I had. On this course I teach HTML, CSS, JavaScript, project design and management, GitHub and version control. I have received some great feedback on my teaching and I enjoy it a lot. I have been accepted onto the Code First: Girls fellowship programme that will see me complete a research project for Code First: Girls, teach on a web development course, undergo confidence coaching, and attend mentoring sessions.  </p>
       <img alt="code first girls" className={css.prof} height="100px" src="https://pbs.twimg.com/profile_images/1301546795986817024/QTOU5xJj.jpg"/>
       <h2>Skills and Languages</h2>
-      <div className={css.list}>
-      <ul className={css.listOne}><li>PostgreSQL</li><li>JavaScript and React</li><li>Shell Scripting</li></ul>
-      <ul className={css.listTwo}><li><a className={css.link} href="https://www.youracclaim.com/badges/cb0f3763-5fec-4abc-a4c0-ce1d8ecdf6d1/linked_in">AWS Certified Cloud Practitioner</a></li><li>Web Sockets</li><li>Python</li></ul>
-      <ul className={css.listThree}><li>NodeJS</li><li>Regression Testing</li><li>Microsoft Azure</li></ul>
+      <div>
+      <p> AWS Certified Cloud Practitioner | JavaScript | React | Shell Scripting | PostgreSQL | Web Sockets | Node | Azure | Testing</p>
       </div>
       <div className={css.tech}>
       <img className={css.techlogo} alt="js" height="60px" src={javascript}/><img className={css.techlogo} alt="react" height="60px" src="https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png"/><img className={css.techlogo}  alt="python" height="60px" src={python}/><img className={css.techlogo}  alt="postgres" height="60px" src={postgres}/>

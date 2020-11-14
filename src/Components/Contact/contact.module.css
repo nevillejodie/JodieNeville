@@ -1,47 +1,22 @@
-    .btnWrap {
-      display: flex;
-      justify-content: center;
-      margin: auto;
-    }
-    
-    .btn {
-      align-items: center;
-        transition-duration: 0.3s;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 25px;
-        height: 55px;
-        color: black;
-        cursor: pointer;
-      }
+     .logos{
+       display: flex;
+       justify-content: space-evenly;
+       
+     }
 
-      .icon {
-        float: left;
-      }
-      
-      .btn:hover {
-        background-color: #B1b1b1;
-        font-weight: 900;
+      .icon:hover {
+        opacity: 0.8;
       }
 
     h4 {
       color: var(--color-pink);
     }
-
-    .email {
-      font-weight: bold;
-      color: white;
-    }
-
     .wrapper {
       max-width: 70%;
       margin: auto;
   }
 
-  .wrapper .btn {
-    display: inline-block;
-    margin: auto;
-  }
+  
   @media only screen and (max-width: 600px) {
     .wrapper {
         max-width: 350px;

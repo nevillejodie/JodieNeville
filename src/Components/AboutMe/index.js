@@ -3,7 +3,6 @@ import css from './aboutme.module.css'
 import cyberowl from '../../Images/logo.png'
 import javascript from '../../Images/javascript.png'
 import python from '../../Images/python.png'
-import react from '../../Images/react.png'
 import postgres from '../../Images/postgres.svg'
 import reactldn from '../../Images/reactldn.png'
 
@@ -16,12 +15,12 @@ function About() {
       <img alt="code first girls" className={css.prof} height="100px" src="https://pbs.twimg.com/profile_images/1301546795986817024/QTOU5xJj.jpg"/>
       <h2>Skills and Languages</h2>
       <div className={css.list}>
-      <ul className={css.listOne}><li><a className={css.link} href="https://www.youracclaim.com/badges/cb0f3763-5fec-4abc-a4c0-ce1d8ecdf6d1/linked_in">AWS Certified Cloud Practitioner</a></li><li>JavaScript and React</li><li>Shell Scripting</li></ul>
-      <ul className={css.listTwo}><li>PostgreSQL</li><li>Web Sockets</li><li>Python</li></ul>
+      <ul className={css.listOne}><li>PostgreSQL</li><li>JavaScript and React</li><li>Shell Scripting</li></ul>
+      <ul className={css.listTwo}><li><a className={css.link} href="https://www.youracclaim.com/badges/cb0f3763-5fec-4abc-a4c0-ce1d8ecdf6d1/linked_in">AWS Certified Cloud Practitioner</a></li><li>Web Sockets</li><li>Python</li></ul>
       <ul className={css.listThree}><li>NodeJS</li><li>Regression Testing</li><li>Microsoft Azure</li></ul>
       </div>
       <div className={css.tech}>
-      <img className={css.techlogo} alt="js" height="60px" src={javascript}/><img className={css.techlogo} alt="react" height="60px" src={react}/><img className={css.techlogo}  alt="python" height="60px" src={python}/><img className={css.techlogo}  alt="postgres" height="60px" src={postgres}/>
+      <img className={css.techlogo} alt="js" height="60px" src={javascript}/><img className={css.techlogo} alt="react" height="60px" src="https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png"/><img className={css.techlogo}  alt="python" height="60px" src={python}/><img className={css.techlogo}  alt="postgres" height="60px" src={postgres}/>
       </div>
       <h2>Events I've Spoken at</h2>
       <p>I had the opportunity to present our final bootcamp project to React London: Bring Your Own Project meetup. I really enjoyed speaking at this event and look forward to doing so more in the future. If you have a speaking opportunity then don't hesitate to get in touch. </p>

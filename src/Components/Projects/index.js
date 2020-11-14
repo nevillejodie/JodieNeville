@@ -36,8 +36,10 @@ export default function Projects() {
                     </p>
                    <img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp3}></img>
                     <figcaption>Creating a profile on the Bootcamper Network App.</figcaption>
+<br></br>
                     <img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp}></img>
                     <figcaption>Opening the menu on the Bootcamper Network App.</figcaption>
+<br></br>
                     <img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp2}></img>
                     <figcaption>The Bootcamper Network App landing screen.</figcaption>
                 </AccordionItemPanel>
@@ -53,10 +55,13 @@ export default function Projects() {
                     The website is static, built using HTML, CSS, and JavaScript. I used media queries to make it responsive on both desktop and mobile. Visit the website <a className={css.link} href="http://shipstonmuseum.co.uk/">here</a></p>
                              <img src={shipland} className={css.img} height="250px" alt="screenshot of shipston website" />
                                 <figcaption>The Shipston Museum landing page.</figcaption>
+                                <br></br>
                              <img src={shipgall} className={css.img} height="250px" alt="screenshot of shipston website" />
                                 <figcaption>The gallery.</figcaption>
+                                <br></br>
                             <img src={shipform} className={css.img} height="250px" alt="screenshot of shipston website" />
                                 <figcaption>Get Involved with downloadable forms.</figcaption>
+                                <br></br>
                            <img src={shipmob} className={css.img} height="250px" alt="screenshot of shipston website" /><figcaption>
                                 Listen to the podcast on mobile.
                     </figcaption>

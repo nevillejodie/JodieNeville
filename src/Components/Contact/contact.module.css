@@ -49,6 +49,10 @@
     .wrapper .btn {
       display: inline-block;
       margin: auto;
+      width: 150px;
+    }
+    .icon {
+      float: left;
     }
   }
   

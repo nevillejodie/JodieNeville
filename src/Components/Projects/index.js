@@ -29,24 +29,24 @@ export default function Projects() {
                             <AccordionItemButton>
                                 Bootcamper Network App
                     </AccordionItemButton>
-                        </AccordionItemHeading>
-                        <AccordionItemPanel>
-                            <p>
-                                For our four-week final project on the School of Code bootcamp our team built a ‘one stop shop’ for information and communications relating to the School of Code network. Here's some of the tech we used:</p> <ul><li>React</li><li>Made it a Progressive Web App</li><li>Interfaced with the Meetup API using the OAuth strategy</li><li>Used web sockets for our chat feature</li><li>Authenticated logins using Firebase</li><li>Hosted our PostgreSQL database using AWS RDS and AWS Elastic Beanstalk</li></ul> <p>We used technologies we were familiar with but also pushed ourselves to learn new ones. We worked in an agile way, breaking the build down into distinct phases and iterating through each of them. See the finished result <a className={css.link} href="https://bootcamper-network.netlify.app/">here</a>.</p>
-                            
-                            <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp3}></img>
-                                <figcaption>Creating a profile on the Bootcamper Network App.</figcaption></figure>
-                            <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp}></img>
-                                <figcaption>Opening the menu on the Bootcamper Network App.</figcaption></figure>
-                            <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp2}></img>
-                                <figcaption>The Bootcamper Network App landing screen.</figcaption></figure>
-
-                        </AccordionItemPanel>
-                    </AccordionItem>
-                    <AccordionItem>
-                        <AccordionItemHeading>
-                            <AccordionItemButton>
-                                Shipston Museum
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                    For our four-week final project on the School of Code bootcamp our team built a ‘one stop shop’ for information and communications relating to the School of Code network. We used React, made it a Progressive Web App, interfaced with the MeetUp API using OAuth, made a chat feature using web sockets, authenticated logins with Firebase, and hosted our PostgreSQL database using AWS RDS and AWS Elastic Beanstalk. <p>We used technologies we were familiar with but also pushed ourselves to learn new ones. We worked in an agile way, breaking the build down into distinct phases and iterating through each of them. See the finished result <a className={css.link} href="https://bootcamper-network.netlify.app/">here</a>.</p>   
+                    </p>
+                    <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp3}></img>
+                    <figcaption>Creating a profile on the Bootcamper Network App.</figcaption></figure>
+                    <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp}></img>
+                    <figcaption>Opening the menu on the Bootcamper Network App.</figcaption></figure>
+                    <figure><img className={css.img} height="250px" alt="screenshot of bootcamp app" src={bootcamp2}></img>
+                    <figcaption>The Bootcamper Network App landing screen.</figcaption></figure>
+                    
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Shipston Museum
                     </AccordionItemButton>
                         </AccordionItemHeading>
                         <AccordionItemPanel>
@@ -69,16 +69,11 @@ export default function Projects() {
                             <AccordionItemButton>
                                 Code First: Girls
                     </AccordionItemButton>
-                        </AccordionItemHeading>
-                        <AccordionItemPanel>
-                            <p>This course provided an opportunity to put the skills learnt into practice by working in a group to create a website. The skills included: </p>
-                            <ul><li>Use of HTML, CSS, and Javascript.</li>
-                                <li>Git, Github and Version Control.</li>
-                                <li>Bootstrap and JQuery.</li>
-                                <li>Consideration for User Experience (UX).</li></ul>
 
-                            <p>Our group won the competition for the website we created. The website can be viewed <a className={css.link} href="https://nevillejodie.github.io/group_project/home.html">here</a>.   </p>
-
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>This course provided an opportunity to put the skills learnt into practice by working in a group to create a website. The skills included use of HTML, CSS, and Javascript, Git, Github and Version Control, Bootstrap, JQuery, and User Experience.  </p>
+<p>Our group won the competition for the website we created. The website can be viewed <a className={css.link} href="https://nevillejodie.github.io/group_project/home.html">here</a>.   </p>
                             <p>The feedback we received is as follows:</p>
                             <p className={css.quote}>"This website is gorgeous, I absolutely love the design and it was great that you backed up your design decisions in your presentation by referencing your target audience. I was impressed by how you've gone the extra mile to source fonts and think through your UX.
 The interactive elements of the website were very impressive. The hover and drop-down features meant it already felt dynamic and engaging even in your limited time. It was clear in your presentation that you'd worked well together as a team and made collaborative decisions. Well done!!!!"</p>

@@ -1,13 +1,27 @@
 img {
   border-radius: 5px 5px 0 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: center;
 }
       figcaption {
         color: var(--color-pink);
+        text-align: center;
       }
 
       .quote {
         font-style: italic;
         font-size: larger;
+        text-align: center;
       }
   
 

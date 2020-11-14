@@ -16,8 +16,8 @@ function About() {
       <img alt="code first girls" className={css.prof} height="100px" src="https://pbs.twimg.com/profile_images/1301546795986817024/QTOU5xJj.jpg"/>
       <h2>Skills and Languages</h2>
       <div className={css.list}>
-      <ul className={css.listOne}><li><a className={css.link} href="https://www.youracclaim.com/badges/cb0f3763-5fec-4abc-a4c0-ce1d8ecdf6d1/linked_in">AWS Certified Cloud Practitioner</a></li><li>JavaScript and React</li><li>Shell Scripting</li></ul>
-      <ul className={css.listTwo}><li>PostgreSQL</li><li>Web Sockets</li><li>Python</li></ul>
+      <ul className={css.listOne}><li>PostgreSQL</li><li>JavaScript and React</li><li>Shell Scripting</li></ul>
+      <ul className={css.listTwo}><li><a className={css.link} href="https://www.youracclaim.com/badges/cb0f3763-5fec-4abc-a4c0-ce1d8ecdf6d1/linked_in">AWS Certified Cloud Practitioner</a></li><li>Web Sockets</li><li>Python</li></ul>
       <ul className={css.listThree}><li>NodeJS</li><li>Regression Testing</li><li>Microsoft Azure</li></ul>
       </div>
       <div className={css.tech}>

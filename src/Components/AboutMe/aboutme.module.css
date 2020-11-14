@@ -34,6 +34,7 @@ ul {
 
 .tech {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .techlogo {

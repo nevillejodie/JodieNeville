@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4934aee5.chunk.css",
-    "main.js": "/static/js/main.c3148aea.chunk.js",
-    "main.js.map": "/static/js/main.c3148aea.chunk.js.map",
+    "main.css": "/static/css/main.c6cc5d6d.chunk.css",
+    "main.js": "/static/js/main.b50f12ec.chunk.js",
+    "main.js.map": "/static/js/main.b50f12ec.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8b56d8f5.js",
     "runtime-main.js.map": "/static/js/runtime-main.8b56d8f5.js.map",
     "static/css/2.105a76b3.chunk.css": "/static/css/2.105a76b3.chunk.css",
-    "static/js/2.be77bfeb.chunk.js": "/static/js/2.be77bfeb.chunk.js",
-    "static/js/2.be77bfeb.chunk.js.map": "/static/js/2.be77bfeb.chunk.js.map",
+    "static/js/2.0b4b7219.chunk.js": "/static/js/2.0b4b7219.chunk.js",
+    "static/js/2.0b4b7219.chunk.js.map": "/static/js/2.0b4b7219.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.297c9afcc86a237d25308801b9fcc8a3.js": "/precache-manifest.297c9afcc86a237d25308801b9fcc8a3.js",
+    "precache-manifest.68db43b044b6f4b2e0dbd479e9a54ad8.js": "/precache-manifest.68db43b044b6f4b2e0dbd479e9a54ad8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.105a76b3.chunk.css.map": "/static/css/2.105a76b3.chunk.css.map",
-    "static/css/main.4934aee5.chunk.css.map": "/static/css/main.4934aee5.chunk.css.map",
-    "static/js/2.be77bfeb.chunk.js.LICENSE.txt": "/static/js/2.be77bfeb.chunk.js.LICENSE.txt",
+    "static/css/main.c6cc5d6d.chunk.css.map": "/static/css/main.c6cc5d6d.chunk.css.map",
+    "static/js/2.0b4b7219.chunk.js.LICENSE.txt": "/static/js/2.0b4b7219.chunk.js.LICENSE.txt",
     "static/media/ShipstonForms.png": "/static/media/ShipstonForms.196c63e9.png",
     "static/media/ShipstonGallery.png": "/static/media/ShipstonGallery.4bbb7ab4.png",
     "static/media/ShipstonLanding.png": "/static/media/ShipstonLanding.77d78b03.png",
@@ -22,6 +22,7 @@
     "static/media/bootcamper menu.png": "/static/media/bootcamper menu.6aabcbbb.png",
     "static/media/bootcamper network.png": "/static/media/bootcamper network.0964e489.png",
     "static/media/bootcamper profile.png": "/static/media/bootcamper profile.e2c564b6.png",
+    "static/media/github.png": "/static/media/github.5cd9f30e.png",
     "static/media/greghelp.png": "/static/media/greghelp.2b79bb53.png",
     "static/media/javascript.png": "/static/media/javascript.7f2092da.png",
     "static/media/postgres.svg": "/static/media/postgres.45e46bc0.svg",
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.8b56d8f5.js",
     "static/css/2.105a76b3.chunk.css",
-    "static/js/2.be77bfeb.chunk.js",
-    "static/css/main.4934aee5.chunk.css",
-    "static/js/main.c3148aea.chunk.js"
+    "static/js/2.0b4b7219.chunk.js",
+    "static/css/main.c6cc5d6d.chunk.css",
+    "static/js/main.b50f12ec.chunk.js"
   ]
 }

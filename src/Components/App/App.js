@@ -5,6 +5,7 @@ import Contact from '../Contact'
 import Home from '../Home'
 import Fade from 'react-reveal'
 import DarkToggle from '../DarkMode'
+import Form from '../Form'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Home/>
       <About/>
       <Contact/>
+      <Form/>
     </Fade>
   );
 }

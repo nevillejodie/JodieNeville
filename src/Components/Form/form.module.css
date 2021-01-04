@@ -2,6 +2,11 @@ h3 {
     color: var(--color-pink);
   }
 
+h2 {
+  font-family: 'Itim', cursive;
+  font-size: 50px;
+}
+
 .formy {
     max-width: 70%;
     margin: auto;

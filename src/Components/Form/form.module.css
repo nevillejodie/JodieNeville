@@ -7,3 +7,43 @@ h3 {
     margin: auto;
     text-align: center;
 }
+
+input[type=email] {
+  padding:5px; 
+  border:2px solid #ccc; 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type=text]:focus {
+  border-color:#333;
+}
+
+input[type=text] {
+  padding:5px; 
+  border:2px solid #ccc; 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 50px;
+}
+
+input[type=email]:focus {
+  border-color:#333;
+}
+
+input[type=submit] {
+  position:relative;
+  top: 10px;
+  padding: 5px 15px;
+  background:var(--color-green);
+  border:1px solid white;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  margin: auto;
+  text-align: center;
+  color: var(--color-pink);
+  font-size: 16px;
+  font-weight: bold;
+}
+

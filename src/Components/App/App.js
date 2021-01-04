@@ -13,8 +13,9 @@ export default function App() {
     <div class="darkMode"><DarkToggle/></div>
       <Home/>
       <About/>
-      <Contact/>
       <Form/>
+      <br></br>
+      <Contact/>
     </Fade>
   );
 }

@@ -25,12 +25,6 @@ p {
    margin-left: 15%;
 }
 
-ul {
-    color: var(--color-pink);
-    display: inline-block;
-    text-align: center;
-    list-style: none;
-}
 
 .tech {
     display: flex;

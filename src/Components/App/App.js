@@ -15,6 +15,8 @@ export default function App() {
       <About/>
       <Form/>
       <br></br>
+      <br></br>
+      <br></br>
       <Contact/>
     </Fade>
   );

@@ -1,6 +1,7 @@
 import React from 'react'
 import css from './aboutme.module.css'
 import cyberowl from '../../Images/logo.png'
+import IL from '../../Images/IL.png'
 import javascript from '../../Images/javascript.png'
 import python from '../../Images/python.png'
 import postgres from '../../Images/postgres.svg'
@@ -8,10 +9,11 @@ import reactldn from '../../Images/reactldn.png'
 
 function About() {
     return ( <div className={css.wrapper}><h2>Launching Into Tech</h2>
-      <p>My day job is a Junior Developer, specialising in the DevOps and QA functions. This experience in learning how to manage code in a live environment, as well as the process of testing and sanity checking, has been extremely valuable. I work for a start up called <a className={css.link} href="https://www.cyberowl.io/">CyberOwl</a> that specialises in cybersecurity for the maritime industry, so knowing the code I write is running on vessels in the ocean is pretty cool! You can see my bragdoc where I document my progress in this role <a className={css.link} href="https://www.bragdocs.com/@jodie-neville">here</a>.</p>
-      <img src={cyberowl} className={css.prof} height="100px" alt=" cyberowl logo"/>
+    
+      <p>My day job is an Associate Cloud Security Engineer with Immersive Labs. Before this I worked in DevOps at a start up called <a className={css.link} href="https://www.cyberowl.io/">CyberOwl</a> that specialises in cybersecurity for the maritime industry, so knowing the scripts I wrote was running on vessels in the ocean was pretty cool! </p>
+      <img src={IL} className={css.prof} height="150px" alt=" IL logo"/>
       <p>I have also come full circle in my involvement with Code First: Girls. I am now a remote instructor on the Introduction to Web Development course. It is so fulfilling to be able to give others the same opportunity that I had. On this course I teach HTML, CSS, JavaScript, project design and management, GitHub and version control. I have received some great feedback on my teaching and I enjoy it a lot. I have been accepted onto the Code First: Girls fellowship programme that will see me complete a research project for Code First: Girls, teach on a web development course, undergo confidence coaching, and attend mentoring sessions.  </p>
-      <img alt="code first girls" className={css.prof} height="100px" src="https://pbs.twimg.com/profile_images/1301546795986817024/QTOU5xJj.jpg"/>
+      <img src={cyberowl} className={css.prof} height="100px" alt=" cyberowl logo"/>
       <h2>Skills and Languages</h2>
       <div>
       <p> AWS Certified Cloud Practitioner | JavaScript | React | Shell Scripting | PostgreSQL | Web Sockets | Node | Azure | Testing</p>
